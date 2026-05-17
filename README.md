@@ -21,15 +21,15 @@ docker build -t northstar-cms .
 
 Run:
 
-docker run -p 8000:8000 northstar-cms
+docker run -p 443:443 -p 80:80 northstar-cms
 
 Open in browser:
 
-http://localhost:8000
+https://localhost
 
 Admin panel:
 
-http://localhost:8000/admin
+https://localhost
 
 Create administrator:
 
